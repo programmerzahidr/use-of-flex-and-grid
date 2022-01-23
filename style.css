@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* calender */
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    background-color: #4c00ff;
+    color: #ffff;
+}
+.container{
+    width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+.calender h1{
+    background-color: #4c00ff;
+    font-size: 30px;
+}
+.calender-date{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #000;
+    color: #ffff;
+}
+.calender div{
+    padding: 5px;
+}
+.calender .off-day{
+    background-color: #4c00ff;
+}
+/* end of calender */
+/* chart area */
+.chart-heading{
+    margin-top: 50px;
+}
+.chart-area{
+    width: 600px;
+    height: 250px;
+    margin: 30px auto;
+    background-color: #ffd700;
+}
+.teacher-chart-area{
+    width: 555px;
+    height: 300px;
+    padding: 20px;
+}
+.chart-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.chart-list div{
+    border: 5px solid #4c00ff;
+    height: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* end of chart area */
+/* calculator */
+.calculator-area{
+    width: 400px;
+    height: 460px;
+    background-color: #D1B48C;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.calculator-area .calculator{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    background-color: #3E4444;
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    grid-gap: 10px;
+    padding: 20px;
+
+}
+.calculator div{
+    font-size: 20px;
+    text-align: center;    padding-top: 15px;
+    color: #ffff;
+    margin-left: 10px;
+    background-color: #4c00ff;
+}
+.disply{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 50px;
+}
+.btn-clr{
+    background-color: #ff0000 !important;
+}
+/* end of calculator */
+/* earning summury */
+.earning-summary-area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.earning-summary{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.earning-summary div{
+    height: 30px;
+    line-height: 30px;
+}
+.earning-summary .bg-color{
+    background-color: #b8b8b8;
+}
+/* end of earning summury */
+/* images gallery area */
+.image-gallery-area{
+    margin-top: 50px;
+}
+.image-gallery{
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    grid-gap: 10px;
+    /* margin: auto; */
+}
+.image-gallery img{
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+}
+/* end of images gallery area */
